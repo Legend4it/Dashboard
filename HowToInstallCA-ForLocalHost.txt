@@ -1,0 +1,6 @@
+https://gist.github.com/cecilemuller/9492b848eb8fe46d462abeb26656c4f8
+Open Git Bash som admin then run the follwoing command:(DashbordLocalhostCARootCA is the name of local CA AND DONT use this Cer. in Prod)
+#######################################################
+
+openssl req -x509 -nodes -new -sha256 -days 1024 -newkey rsa:2048 -keyout RootCA.key -out RootCA.pem -subj "//C=US/CN=DashbordLocalhostCARootCA"
+openssl x509 -outform pem -in RootCA.pem -out RootCA.crt
