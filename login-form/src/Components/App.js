@@ -1,10 +1,12 @@
 import './App.css';
-import LoginFormComponent from './LoginFormComponent/LoginFormComponent.js'
+import LoginForm from './Login/LoginForm'
 
 function App() {
   return (
     <div className="App">
-      <LoginFormComponent />
+      <div className="container">
+        <LoginForm />
+      </div>
     </div>
   );
 }

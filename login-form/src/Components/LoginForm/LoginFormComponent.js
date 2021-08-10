@@ -1,8 +1,10 @@
 import React from "react"
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import './LoginFormComponent.css'
 import { Component } from "react";
+import {Redirect} from "react-router-dom";
+
+import './LoginFormComponent.css'
 
 
 class LoginFormComponent extends Component{
@@ -23,13 +25,14 @@ class LoginFormComponent extends Component{
     }
 
     handleSubmit(event){
-        console.log(`Submit: ${this.state.email}`);
         event.preventDefault();
+        console.log(`Submit: ${this.state.email}`);
+        return <Redirect to='/'/>
     }
 
     render(){
         return (
-            <div className="loginContainer">
+            <div className="formContainer">
                 <Form onSubmit={this.handleSubmit}>
                     <Form.Group controlId="formEmail">
                         <Form.Label>Email address</Form.Label>
