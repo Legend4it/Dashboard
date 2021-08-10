@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\React\\Dashboard\\Dashboard.WebApi\\Dashboard.WebApi.csproj",
+      "projectUniqueName": "C:\\Dev\\Dashboard\\Backend\\Dashboard.WebApi\\Dashboard.WebApi.csproj",
       "projectName": "Dashboard.WebApi",
-      "projectPath": "C:\\Dev\\React\\Dashboard\\Dashboard.WebApi\\Dashboard.WebApi.csproj",
+      "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.WebApi\\Dashboard.WebApi.csproj",
       "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\React\\Dashboard\\Dashboard.WebApi\\obj\\",
+      "outputPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
