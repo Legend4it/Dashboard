@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Dashboard\\Backend\\Dashboard.WebApi\\Dashboard.WebApi.csproj": {}
+    "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Dashboard\\Backend\\Dashboard.WebApi\\Dashboard.WebApi.csproj": {
+    "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Dashboard\\Backend\\Dashboard.WebApi\\Dashboard.WebApi.csproj",
-        "projectName": "Dashboard.WebApi",
-        "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.WebApi\\Dashboard.WebApi.csproj",
+        "projectUniqueName": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj",
+        "projectName": "Dashboard.Logging",
+        "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj",
         "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.WebApi\\obj\\",
+        "outputPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,16 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            },
-            "pastel": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -60,9 +50,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

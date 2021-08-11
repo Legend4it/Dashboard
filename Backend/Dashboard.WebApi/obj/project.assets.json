@@ -22,6 +22,15 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+      "Pastel/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Pastel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Pastel.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/5.6.3": {
         "type": "package",
         "dependencies": {
@@ -123,6 +132,23 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "Pastel/2.1.0": {
+      "sha512": "CYPB5mCTGdmhaW7FyiYerq8S5S6Sz1pBJMC6XmmWvk/APiKjqmCc5vIn4XX++3E1w56LadBUDpicWBc2k84kmQ==",
+      "type": "package",
+      "path": "pastel/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net5.0/Pastel.dll",
+        "lib/net5.0/Pastel.xml",
+        "lib/netstandard2.0/Pastel.dll",
+        "lib/netstandard2.0/Pastel.xml",
+        "pastel.2.1.0.nupkg.sha512",
+        "pastel.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/5.6.3": {
       "sha512": "UkL9GU0mfaA+7RwYjEaBFvAzL8qNQhNqAeV5uaWUu/Z+fVgvK9FHkGCpTXBqSQeIHuZaIElzxnLDdIqGzuCnVg==",
       "type": "package",
@@ -189,7 +215,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "pastel >= 2.1.0"
     ]
   },
   "packageFolders": {
@@ -234,6 +261,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"
+          },
+          "pastel": {
+            "target": "Package",
+            "version": "[2.1.0, )"
           }
         },
         "imports": [

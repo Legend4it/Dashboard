@@ -1,11 +1,8 @@
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Pastel;
+using System.Drawing;
 
 namespace Dashboard.WebApi
 {
@@ -13,6 +10,7 @@ namespace Dashboard.WebApi
     {
         public static void Main(string[] args)
         {
+            SayHello();
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -22,5 +20,17 @@ namespace Dashboard.WebApi
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+        internal static void SayHello()
+        {
+            Console.WriteLine(@"
+                ██████╗  █████╗ ███████╗██╗  ██╗██████╗  ██████╗  █████╗ ██████╗ ██████╗ 
+                ██╔══██╗██╔══██╗██╔════╝██║  ██║██╔══██╗██╔═══██╗██╔══██╗██╔══██╗██╔══██╗
+                ██║  ██║███████║███████╗███████║██████╔╝██║   ██║███████║██████╔╝██║  ██║
+                ██║  ██║██╔══██║╚════██║██╔══██║██╔══██╗██║   ██║██╔══██║██╔══██╗██║  ██║
+                ██████╔╝██║  ██║███████║██║  ██║██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝
+                ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
+            ".Pastel(Color.DarkSeaGreen));
+        }
     }
 }
