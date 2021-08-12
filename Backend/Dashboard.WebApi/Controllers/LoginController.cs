@@ -1,29 +1,22 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Dashboard.WebApi.Controllers
+namespace Dashboard.WebApi.Controllers;
+
+[Route("api/[controller]")]
+[ApiController]
+public class LoginController : ControllerBase
 {
+    private readonly ILogger<LoginController> log;
 
-    [Route("api/[controller]")]
-    [ApiController]
-    public class LoginController : ControllerBase
+    public LoginController(ILogger<LoginController> logger)
     {
-        private readonly ILogger<LoginController> log;
+        log = logger;
+    }
 
-        public LoginController(ILogger<LoginController> logger)
-        {
-            log = logger;
-        }
-
-        [HttpGet]
-        public IActionResult Get()
-        {
-            log.LogInformation("####################  login in login controller ####################");
-            return Ok("Hello from LoginController");
-        }
+    [HttpGet]
+    public IActionResult Get()
+    {
+        log.LogInformation($"####################  login in login controller ####################");
+        return Ok("Hello from LoginController");
     }
 }

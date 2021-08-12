@@ -1,21 +1,18 @@
-﻿using Serilog;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.Configuration;
+using Serilog;
 
-namespace Dashboard.Logging
+namespace Dashboard.Logging;
+
+public static class LoggingConfiguration
 {
-    public static class LoggingConfiguration
+    public static void GetLogger()
     {
-        public static void GetLogger()
-        {
-            Log.Logger = new LoggerConfiguration()
-            //.MinimumLevel.Override("Microsoft.AspNetCore", LogEventLevel.Warning)
-            .Enrich.FromLogContext()
-            .WriteTo.Console()
-            .CreateLogger();
-        }
+        var configuration = new ConfigurationBuilder()
+        .AddJsonFile("appsettings.json")
+        .Build();
+
+        Log.Logger = new LoggerConfiguration()
+                        .ReadFrom.Configuration(configuration)
+                        .CreateLogger();
     }
 }
