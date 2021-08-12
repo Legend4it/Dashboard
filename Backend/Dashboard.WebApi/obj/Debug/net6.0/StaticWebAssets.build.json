@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X9+a2vJjmsCTVgYt78sWeS+OrpEzA2dClhYiAXXwvGM=",
+  "Source": "Dashboard.WebApi",
+  "BasePath": "_content/Dashboard.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "RelatedManifests": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
