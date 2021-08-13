@@ -1,4 +1,5 @@
-﻿using Serilog;
+﻿using Dashboard.Infra;
+using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.SystemConsole.Themes;
 
@@ -21,8 +22,8 @@ public static partial class LoggerConfigurationExtenstions
             .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
             .WriteTo.Console(theme: AnsiConsoleTheme.Code)
             .Enrich.FromLogContext()
-            .Enrich.WithProperty("WithMachineName", "MachineName")
-            .Enrich.WithProperty("WithThreadId", "ThreadId")
+            .Enrich.WithMachineName()
+            .Enrich.WithThreadId()
             // Build information as custom properties
             .Enrich.WithProperty(nameof(buildInfo.BuildId), buildInfo.BuildId)
             .Enrich.WithProperty(nameof(buildInfo.BuildNumber), buildInfo.BuildNumber)

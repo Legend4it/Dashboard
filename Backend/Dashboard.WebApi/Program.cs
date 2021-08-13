@@ -1,10 +1,10 @@
-using Dashboard.Logger;
-using Dashboard.Logging;
+
 using Pastel;
 using Serilog;
 using System.Drawing;
 using Autofac.Extensions.DependencyInjection;
-
+using Dashboard.Logging;
+using Dashboard.Infra;
 
 namespace Dashboard.WebApi;
 
@@ -15,13 +15,13 @@ public class Program
     public static void Main(string[] args)
     {
         SayHello();
-        Logging.Logger.SetupSerilogLogger(AppName, AppVersionInfo.GetBuildInfo);
+        AppVersionInfo.InitialiseBuildInfoGivenPath(Directory.GetCurrentDirectory());
+        Logger.SetupSerilogLogger(AppName, AppVersionInfo.GetBuildInfo);
 
         try
         {
 
-            Log.Information("Starting up");
-
+            Log.Information("Starting web host '{ApplicationName}'...", AppName);
             CreateHostBuilder(args).Build().Run();
         }
         catch (Exception ex)

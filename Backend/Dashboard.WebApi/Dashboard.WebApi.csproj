@@ -11,7 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dashboard.Logging\Dashboard.Logger.csproj" />
+    <ProjectReference Include="..\Dashboard.Infra\Dashboard.Infra.csproj" />
+    <ProjectReference Include="..\Dashboard.Logging\Dashboard.Logging.csproj" />
   </ItemGroup>
 
 </Project>

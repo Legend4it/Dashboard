@@ -10,3 +10,4 @@ C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.csp
 C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.dll
 C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\ref\Dashboard.Logger.dll
 C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.pdb
+C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.csproj.AssemblyReference.cache

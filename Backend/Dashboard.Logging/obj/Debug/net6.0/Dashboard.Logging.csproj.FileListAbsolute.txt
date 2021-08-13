@@ -10,4 +10,7 @@ C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logging.cs
 C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logging.dll
 C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\ref\Dashboard.Logging.dll
 C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logging.pdb
+C:\Dev\Dashboard\Backend\Dashboard.Logging\bin\Debug\net6.0\Dashboard.Infra.dll
+C:\Dev\Dashboard\Backend\Dashboard.Logging\bin\Debug\net6.0\Dashboard.Infra.pdb
 C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logging.csproj.AssemblyReference.cache
+C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logging.csproj.CopyComplete

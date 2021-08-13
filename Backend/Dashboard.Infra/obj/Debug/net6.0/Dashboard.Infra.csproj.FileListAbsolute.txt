@@ -4,3 +4,10 @@ C:\Dev\Dashboard\Backend\Dashboard.Infra\obj\Debug\net6.0\Dashboard.Infra.Assemb
 C:\Dev\Dashboard\Backend\Dashboard.Infra\obj\Debug\net6.0\Dashboard.Infra.AssemblyInfo.cs
 C:\Dev\Dashboard\Backend\Dashboard.Infra\obj\Debug\net6.0\Dashboard.Infra.ImplicitNamespaceImports.cs
 C:\Dev\Dashboard\Backend\Dashboard.Infra\obj\Debug\net6.0\Dashboard.Infra.csproj.CoreCompileInputs.cache
+C:\Dev\Dashboard\Backend\Dashboard.Infra\bin\Debug\net6.0\Dashboard.Infra.deps.json
+C:\Dev\Dashboard\Backend\Dashboard.Infra\bin\Debug\net6.0\Dashboard.Infra.dll
+C:\Dev\Dashboard\Backend\Dashboard.Infra\bin\Debug\net6.0\ref\Dashboard.Infra.dll
+C:\Dev\Dashboard\Backend\Dashboard.Infra\bin\Debug\net6.0\Dashboard.Infra.pdb
+C:\Dev\Dashboard\Backend\Dashboard.Infra\obj\Debug\net6.0\Dashboard.Infra.dll
+C:\Dev\Dashboard\Backend\Dashboard.Infra\obj\Debug\net6.0\ref\Dashboard.Infra.dll
+C:\Dev\Dashboard\Backend\Dashboard.Infra\obj\Debug\net6.0\Dashboard.Infra.pdb

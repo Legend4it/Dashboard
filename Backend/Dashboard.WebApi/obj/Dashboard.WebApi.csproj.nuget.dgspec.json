@@ -4,14 +4,14 @@
     "C:\\Dev\\Dashboard\\Backend\\Dashboard.WebApi\\Dashboard.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj": {
+    "C:\\Dev\\Dashboard\\Backend\\Dashboard.Infra\\Dashboard.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj",
-        "projectName": "Dashboard.Logger",
-        "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj",
+        "projectUniqueName": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Infra\\Dashboard.Infra.csproj",
+        "projectName": "Dashboard.Infra",
+        "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Infra\\Dashboard.Infra.csproj",
         "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\obj\\",
+        "outputPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,10 +39,80 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj",
+        "projectName": "Dashboard.Logging",
+        "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj",
+        "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Dev\\Dashboard\\Backend\\Dashboard.Infra\\Dashboard.Infra.csproj": {
+                "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Infra\\Dashboard.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[4.1.1-dev-00229, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.AppSettings": {
+              "target": "Package",
+              "version": "[2.2.2, )"
             }
           },
           "imports": [
@@ -88,8 +158,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj": {
-                "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj"
+              "C:\\Dev\\Dashboard\\Backend\\Dashboard.Infra\\Dashboard.Infra.csproj": {
+                "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Infra\\Dashboard.Infra.csproj"
+              },
+              "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj": {
+                "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj"
               }
             }
           }
