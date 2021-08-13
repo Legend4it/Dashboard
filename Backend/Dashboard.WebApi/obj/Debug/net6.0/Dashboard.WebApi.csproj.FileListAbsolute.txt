@@ -67,6 +67,8 @@ C:\Dev\Dashboard\Backend\Dashboard.WebApi\bin\Debug\net6.0\Serilog.Settings.Conf
 C:\Dev\Dashboard\Backend\Dashboard.WebApi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\Dev\Dashboard\Backend\Dashboard.WebApi\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Dev\Dashboard\Backend\Dashboard.WebApi\bin\Debug\net6.0\Serilog.Sinks.File.dll
-C:\Dev\Dashboard\Backend\Dashboard.WebApi\bin\Debug\net6.0\Dashboard.Logging.dll
-C:\Dev\Dashboard\Backend\Dashboard.WebApi\bin\Debug\net6.0\Dashboard.Logging.pdb
+C:\Dev\Dashboard\Backend\Dashboard.WebApi\bin\Debug\net6.0\Dashboard.Logger.dll
+C:\Dev\Dashboard\Backend\Dashboard.WebApi\bin\Debug\net6.0\Dashboard.Logger.pdb
 C:\Dev\Dashboard\Backend\Dashboard.WebApi\obj\Debug\net6.0\Dashboard.WebApi.csproj.CopyComplete
+C:\Dev\Dashboard\Backend\Dashboard.WebApi\bin\Debug\net6.0\Autofac.dll
+C:\Dev\Dashboard\Backend\Dashboard.WebApi\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll

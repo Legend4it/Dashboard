@@ -6,38 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Dashboard.WebApi/1.0.0": {
+      "Dashboard.Logger/1.0.0": {
         "dependencies": {
-          "Autofac.Extensions.DependencyInjection": "7.1.0",
-          "Dashboard.Logger": "1.0.0",
-          "Swashbuckle.AspNetCore": "5.6.3",
-          "Pastel": "2.1.0"
+          "Serilog.AspNetCore": "4.1.1-dev-00229"
         },
         "runtime": {
-          "Dashboard.WebApi.dll": {}
-        }
-      },
-      "Autofac/6.0.0": {
-        "dependencies": {
-          "System.Diagnostics.DiagnosticSource": "4.7.1"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Autofac.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.0.0"
-          }
-        }
-      },
-      "Autofac.Extensions.DependencyInjection/7.1.0": {
-        "dependencies": {
-          "Autofac": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "7.1.0.0",
-            "fileVersion": "7.1.0.0"
-          }
+          "Dashboard.Logger.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -78,7 +52,6 @@
           }
         }
       },
-      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.Extensions.Configuration/2.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.8"
@@ -154,14 +127,6 @@
       "Microsoft.Extensions.Primitives/5.0.0": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.OpenApi/1.2.3": {
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "assemblyVersion": "1.2.3.0",
-            "fileVersion": "1.2.3.0"
-          }
-        }
-      },
       "Newtonsoft.Json/9.0.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.0.1",
@@ -191,14 +156,6 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.1.19813"
-          }
-        }
-      },
-      "Pastel/2.1.0": {
-        "runtime": {
-          "lib/net5.0/Pastel.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.0.0"
           }
         }
       },
@@ -325,44 +282,6 @@
           }
         }
       },
-      "Swashbuckle.AspNetCore/5.6.3": {
-        "dependencies": {
-          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
-          "Swashbuckle.AspNetCore.Swagger": "5.6.3",
-          "Swashbuckle.AspNetCore.SwaggerGen": "5.6.3",
-          "Swashbuckle.AspNetCore.SwaggerUI": "5.6.3"
-        }
-      },
-      "Swashbuckle.AspNetCore.Swagger/5.6.3": {
-        "dependencies": {
-          "Microsoft.OpenApi": "1.2.3"
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "assemblyVersion": "5.6.3.0",
-            "fileVersion": "5.6.3.0"
-          }
-        }
-      },
-      "Swashbuckle.AspNetCore.SwaggerGen/5.6.3": {
-        "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "5.6.3"
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "assemblyVersion": "5.6.3.0",
-            "fileVersion": "5.6.3.0"
-          }
-        }
-      },
-      "Swashbuckle.AspNetCore.SwaggerUI/5.6.3": {
-        "runtime": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "assemblyVersion": "5.6.3.0",
-            "fileVersion": "5.6.3.0"
-          }
-        }
-      },
       "System.AppContext/4.1.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -391,7 +310,6 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Diagnostics.DiagnosticSource/4.7.1": {},
       "System.Diagnostics.Tools/4.0.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -686,36 +604,14 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.0.11"
         }
-      },
-      "Dashboard.Logger/1.0.0": {
-        "dependencies": {
-          "Serilog.AspNetCore": "4.1.1-dev-00229"
-        },
-        "runtime": {
-          "Dashboard.Logger.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "Dashboard.WebApi/1.0.0": {
+    "Dashboard.Logger/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Autofac/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tRVRXGxwXbQmPy1ZGso115O55ffVW4mWtufjOy7hduQ1BNVR1j7RQQjxpYuB6tJw5OrgqRWYVJLJ8RwYNz/j+A==",
-      "path": "autofac/6.0.0",
-      "hashPath": "autofac.6.0.0.nupkg.sha512"
-    },
-    "Autofac.Extensions.DependencyInjection/7.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-nm6rZREZ9tjdKXu9cmT69zHkZODagjCPlRRCOhiS1VqFFis9LQnMl18L4OYr8yfCW1WAQkFDD2CNaK/kF5Eqeg==",
-      "path": "autofac.extensions.dependencyinjection/7.1.0",
-      "hashPath": "autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.0.1": {
       "type": "package",
@@ -730,13 +626,6 @@
       "sha512": "sha512-2HjSGp63VCLQaeGadrLYR868g25mJHr+TFF81yWCaClzjUbU2vNDx6km7SUgPnoLVksE/1e7in88eh+oPtc4aQ==",
       "path": "microsoft.dotnet.platformabstractions/2.0.4",
       "hashPath": "microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512"
-    },
-    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
-      "path": "microsoft.extensions.apidescription.server/3.0.0",
-      "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/2.0.0": {
       "type": "package",
@@ -843,26 +732,12 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Microsoft.OpenApi/1.2.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
-      "path": "microsoft.openapi/1.2.3",
-      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
-    },
     "Newtonsoft.Json/9.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
-    },
-    "Pastel/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-CYPB5mCTGdmhaW7FyiYerq8S5S6Sz1pBJMC6XmmWvk/APiKjqmCc5vIn4XX++3E1w56LadBUDpicWBc2k84kmQ==",
-      "path": "pastel/2.1.0",
-      "hashPath": "pastel.2.1.0.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",
@@ -934,34 +809,6 @@
       "path": "serilog.sinks.file/4.1.0",
       "hashPath": "serilog.sinks.file.4.1.0.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore/5.6.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UkL9GU0mfaA+7RwYjEaBFvAzL8qNQhNqAeV5uaWUu/Z+fVgvK9FHkGCpTXBqSQeIHuZaIElzxnLDdIqGzuCnVg==",
-      "path": "swashbuckle.aspnetcore/5.6.3",
-      "hashPath": "swashbuckle.aspnetcore.5.6.3.nupkg.sha512"
-    },
-    "Swashbuckle.AspNetCore.Swagger/5.6.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-rn/MmLscjg6WSnTZabojx5DQYle2GjPanSPbCU3Kw8Hy72KyQR3uy8R1Aew5vpNALjfUFm2M/vwUtqdOlzw+GA==",
-      "path": "swashbuckle.aspnetcore.swagger/5.6.3",
-      "hashPath": "swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512"
-    },
-    "Swashbuckle.AspNetCore.SwaggerGen/5.6.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-CkhVeod/iLd3ikVTDOwG5sym8BE5xbqGJ15iF3cC7ZPg2kEwDQL4a88xjkzsvC9oOB2ax6B0rK0EgRK+eOBX+w==",
-      "path": "swashbuckle.aspnetcore.swaggergen/5.6.3",
-      "hashPath": "swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512"
-    },
-    "Swashbuckle.AspNetCore.SwaggerUI/5.6.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BPvcPxQRMsYZ3HnYmGKRWDwX4Wo29WHh14Q6B10BB8Yfbbcza+agOC2UrBFA1EuaZuOsFLbp6E2+mqVNF/Je8A==",
-      "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
-      "hashPath": "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
-    },
     "System.AppContext/4.1.0": {
       "type": "package",
       "serviceable": true,
@@ -989,13 +836,6 @@
       "sha512": "sha512-w5U95fVKHY4G8ASs/K5iK3J5LY+/dLFd4vKejsnI/ZhBsWS9hQakfx3Zr7lRWKg4tAw9r4iktyvsTagWkqYCiw==",
       "path": "system.diagnostics.debug/4.0.11",
       "hashPath": "system.diagnostics.debug.4.0.11.nupkg.sha512"
-    },
-    "System.Diagnostics.DiagnosticSource/4.7.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
-      "path": "system.diagnostics.diagnosticsource/4.7.1",
-      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
     },
     "System.Diagnostics.Tools/4.0.1": {
       "type": "package",
@@ -1220,11 +1060,6 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
-    },
-    "Dashboard.Logger/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

@@ -29,7 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FeatureToggle", "FeatureTog
 		FeatureToggle_ReadMe.md = FeatureToggle_ReadMe.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dashboard.Logging", "Dashboard.Logging\Dashboard.Logging.csproj", "{A1347329-34D3-44FC-8E4E-A0A0FB7F30F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dashboard.Logger", "Dashboard.Logging\Dashboard.Logger.csproj", "{A1347329-34D3-44FC-8E4E-A0A0FB7F30F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{34307AFA-C775-476D-8A87-E7295F221F32}"
 EndProject

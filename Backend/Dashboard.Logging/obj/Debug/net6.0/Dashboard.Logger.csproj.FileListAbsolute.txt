@@ -1,0 +1,12 @@
+C:\Dev\Dashboard\Backend\Dashboard.Logging\bin\Debug\net6.0\Dashboard.Logger.deps.json
+C:\Dev\Dashboard\Backend\Dashboard.Logging\bin\Debug\net6.0\Dashboard.Logger.dll
+C:\Dev\Dashboard\Backend\Dashboard.Logging\bin\Debug\net6.0\ref\Dashboard.Logger.dll
+C:\Dev\Dashboard\Backend\Dashboard.Logging\bin\Debug\net6.0\Dashboard.Logger.pdb
+C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.AssemblyInfoInputs.cache
+C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.AssemblyInfo.cs
+C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.ImplicitNamespaceImports.cs
+C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.csproj.CoreCompileInputs.cache
+C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.dll
+C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\ref\Dashboard.Logger.dll
+C:\Dev\Dashboard\Backend\Dashboard.Logging\obj\Debug\net6.0\Dashboard.Logger.pdb

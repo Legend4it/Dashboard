@@ -5,12 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
     <PackageReference Include="pastel" Version="2.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dashboard.Logging\Dashboard.Logging.csproj" />
+    <ProjectReference Include="..\Dashboard.Logging\Dashboard.Logger.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6UewJ6hWjZ9FbITpAiKL5BJ8iOsysuz4ov8T9sVIZOt+5puRqaxKK8vILfhVDYQskJvTyyf+YKGdSlnQGz9JuQ==",
+  "dgSpecHash": "1BQ6lrDx3FA9VSCryo0T5YhMKOVVJv1Pa7PnaJr0+ZAvvVF1z/ukYPMbMAm0PHq+NfQlWQIxYWzZsO2yNLWRaw==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj",
+  "projectFilePath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",

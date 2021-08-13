@@ -3684,9 +3684,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj",
-      "projectName": "Dashboard.Logging",
-      "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj",
+      "projectUniqueName": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj",
+      "projectName": "Dashboard.Logger",
+      "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj",
       "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
       "outputPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\obj\\",
       "projectStyle": "PackageReference",

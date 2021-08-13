@@ -4,12 +4,12 @@
     "C:\\Dev\\Dashboard\\Backend\\Dashboard.WebApi\\Dashboard.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj": {
+    "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj",
-        "projectName": "Dashboard.Logging",
-        "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj",
+        "projectUniqueName": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj",
+        "projectName": "Dashboard.Logger",
+        "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj",
         "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\obj\\",
         "projectStyle": "PackageReference",
@@ -88,8 +88,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj": {
-                "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logging.csproj"
+              "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj": {
+                "projectPath": "C:\\Dev\\Dashboard\\Backend\\Dashboard.Logging\\Dashboard.Logger.csproj"
               }
             }
           }
@@ -104,6 +104,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
