@@ -1,16 +1,16 @@
 ﻿using System.Runtime.Serialization;
 
 
-namespace Dashboard.Logger
+namespace Dashboard.Infra
 {
     [Serializable]
     public class AppVersionInfoException : Exception
     {
         public AppVersionInfoException() { }
 
-        public AppVersionInfoException(string message) : base(message) { }
+        public AppVersionInfoException(string? message) : base(message) { }
 
-        public AppVersionInfoException(string message, Exception innerException) : base(message, innerException) { }
+        public AppVersionInfoException(string? message, Exception? innerException) : base(message, innerException) { }
 
         protected AppVersionInfoException(SerializationInfo info, StreamingContext context) : base(info, context) { }
     }

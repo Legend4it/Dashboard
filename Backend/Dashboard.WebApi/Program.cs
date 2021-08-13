@@ -10,7 +10,7 @@ namespace Dashboard.WebApi;
 
 public class Program
 {
-    public static readonly string AppName = "WebApi.Template" + "Service";
+    public static readonly string AppName = "Dashboard.WebApi" + "Service";
 
     public static void Main(string[] args)
     {
