@@ -15,7 +15,7 @@ public class Program
     public static void Main(string[] args)
     {
         SayHello();
-        AppVersionInfo.InitialiseBuildInfoGivenPath(Directory.GetCurrentDirectory());
+
         Logger.SetupSerilogLogger(AppName, AppVersionInfo.GetBuildInfo);
 
         try
