@@ -35,7 +35,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{34307AFA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{36E2C1B3-E075-4373-98AC-B4F3EE815517}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard.Infra", "Dashboard.Infra\Dashboard.Infra.csproj", "{30D08EF5-CFE9-45F8-A05F-0D339A58C712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dashboard.Infra", "Dashboard.Infra\Dashboard.Infra.csproj", "{30D08EF5-CFE9-45F8-A05F-0D339A58C712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard.Test.Logging", "Dashboard.Test.Logging\Dashboard.Test.Logging.csproj", "{4FB2F8E5-697C-4AE5-839C-77CB681431F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{30D08EF5-CFE9-45F8-A05F-0D339A58C712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D08EF5-CFE9-45F8-A05F-0D339A58C712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D08EF5-CFE9-45F8-A05F-0D339A58C712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB2F8E5-697C-4AE5-839C-77CB681431F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB2F8E5-697C-4AE5-839C-77CB681431F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB2F8E5-697C-4AE5-839C-77CB681431F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB2F8E5-697C-4AE5-839C-77CB681431F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{1F7C62F8-3666-4EA7-8240-2A18D22D176D} = {4240E240-1038-4BF4-ABCC-A530F3728C8F}
 		{A1347329-34D3-44FC-8E4E-A0A0FB7F30F6} = {941E7886-FD97-415D-A9DC-68DA08DAE588}
 		{30D08EF5-CFE9-45F8-A05F-0D339A58C712} = {36E2C1B3-E075-4373-98AC-B4F3EE815517}
+		{4FB2F8E5-697C-4AE5-839C-77CB681431F4} = {34307AFA-C775-476D-8A87-E7295F221F32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0449CE2-11F3-409F-B42E-B91C18891F8C}
