@@ -37,7 +37,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{36E2C1B3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dashboard.Infra", "Dashboard.Infra\Dashboard.Infra.csproj", "{30D08EF5-CFE9-45F8-A05F-0D339A58C712}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard.Test.Logging", "Dashboard.Test.Logging\Dashboard.Test.Logging.csproj", "{4FB2F8E5-697C-4AE5-839C-77CB681431F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dashboard.Test.Logging", "Dashboard.Test.Logging\Dashboard.Test.Logging.csproj", "{4FB2F8E5-697C-4AE5-839C-77CB681431F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{20E84A6F-6FB4-47CD-8425-8F0537A4DD83}"
+	ProjectSection(SolutionItems) = preProject
+		Security.md = Security.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
